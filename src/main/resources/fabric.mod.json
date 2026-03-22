@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "aas",
+  "version": "${version}",
+  "name": "AAS",
+  "description": "L",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/aas/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.Cooltechno.aas.client.AasClient"
+    ],
+    "main": [
+      "de.Cooltechno.aas.Aas"
+    ]
+  },
+  "mixins": [
+    "aas.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
