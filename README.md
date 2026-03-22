@@ -1,5 +1,5 @@
 ## AAS - Aim Assist
-A simple and lightweight utility for Fabric 1.21.1 that helps with your aim in a way that feels natural. Instead of snapping your camera instantly, this mod uses a "magnetic" pull that gently guides your crosshair toward other players.
+A simple and lightweight utility for Fabric 1.21.11 that helps with your aim in a way that feels natural. Instead of snapping your camera instantly, this mod uses a "magnetic" pull that gently guides your crosshair toward other players.
 
 # How It Works
 **Smooth Movement:** The aim assist runs every time your screen renders a frame. This makes the movement look fluid and avoids the "stuttering" or "shaking" found in basic mods.
