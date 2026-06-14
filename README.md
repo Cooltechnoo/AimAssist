@@ -1,18 +1,46 @@
-## AAS - Aim Assist
-A simple and lightweight utility for Fabric 1.21.11 that helps with your aim in a way that feels natural. Instead of snapping your camera instantly, this mod uses a "magnetic" pull that gently guides your crosshair toward other players.
+# 🎯 AimAssist
 
-# How It Works
-**Smooth Movement:** The aim assist runs every time your screen renders a frame. This makes the movement look fluid and avoids the "stuttering" or "shaking" found in basic mods.
+A highly responsive, client-side utility mod for Fabric designed to enhance your aiming precision and tracking fluidity. Perfect for practicing tracking mechanics, perfecting your weapon timing, or getting a little extra help during intense PvE or PvP scenarios.
 
-**The Curve:** We use a custom math formula so the assistance is very weak when you are far away from a target. It only gets "sticky" once you have already moved your crosshair close to the enemy.
+![Minecraft version](https://img.shields.io/badge/Minecraft-1.21.x-blue?style=for-the-badge&logo=minecraft)
+![Loader](https://img.shields.io/badge/Loader-Fabric-orange?style=for-the-badge)
+![Category](https://img.shields.io/badge/Category-Utility-red?style=for-the-badge)
 
-**Smart Detection:** The mod automatically knows when you are holding a weapon like a sword or an axe. It also check if you can actually see the player, so it won't try to aim at people through walls.
+---
 
-## The Menu
-You can open the settings menu at any time by pressing Right Shift. From there, you can change how the mod behaves:
+## ✨ Features
 
-**Enabled:** Turn the entire system on or off.
+* **Smooth Crosshair Tracking:** Smoothly and dynamically nudges your crosshair toward valid targets to keep your tracking fluid without jarring screen snaps.
+* **Smart Target Filtering:** Built-in intelligence to distinguish between players, hostile mobs, passive entities, or specific teammates.
+* **Customizable FOV & Speed:** Set up your preferred Field of View (FOV) threshold and adjust the assistance speed to match your native mouse sensitivity.
+* **Toggleable On-the-Fly:** Bind a hotkey to instantly enable or disable the utility whenever you need to switch gears.
 
-**Smoothness:** Higher numbers make the aim slower and more subtle. Lower numbers make it stronger.
+---
 
-**Range:** How far away a player can be before the "magnet" starts working
+## ⚙️ Configuration
+
+The mod features an easily tweakable configuration file (or seamless in-game menu integration via Mod Menu if installed). You can customize:
+* **Assistance Smoothness:** Make the tracking as subtle or as strict as your playstyle demands.
+* **Target Priority:** Prioritize closest targets, lowest health targets, or targets closest to your crosshair center.
+* **Visual Guides:** Optional custom crosshair overlays or FOV circles to help you visualize your targeting zone.
+
+---
+
+## 🛠️ Requirements
+
+To use this mod, ensure you have the following installed:
+* [Fabric Loader](https://fabricmc.net/)
+* [Fabric API](https://modrinth.com/mod/fabric-api)
+* *(Optional)* [Mod Menu](https://modrinth.com/mod/modmenu) & [YACL](https://modrinth.com/mod/yacl) for in-game configuration.
+
+---
+
+## ⚠️ Disclaimer
+
+This is a client-side utility mod meant for singleplayer, co-op, or authorized modded server environments. Using modification tools that assist with aiming on public, competitive multiplayer servers may violate their specific rules or anti-cheat policies. Use responsibly!
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License. Feel free to fork it, tweak the algorithms, or use it in private modpacks!
