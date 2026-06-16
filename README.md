@@ -2,7 +2,7 @@
 
 A highly responsive, client-side utility mod for Fabric designed to enhance your aiming precision and tracking fluidity. Perfect for practicing tracking mechanics, perfecting your weapon timing, or getting a little extra help during intense PvE or PvP scenarios.
 
-![Minecraft version](https://img.shields.io/badge/Minecraft-1.21.x-blue?style=for-the-badge&logo=minecraft)
+![Minecraft version](https://img.shields.io/badge/Minecraft-1.21.11-blue?style=for-the-badge&logo=minecraft)
 ![Loader](https://img.shields.io/badge/Loader-Fabric-orange?style=for-the-badge)
 ![Category](https://img.shields.io/badge/Category-Utility-red?style=for-the-badge)
 
